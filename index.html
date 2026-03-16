@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" as="image" href="./files/OZAdx___Kopf.png" />
+    <link rel="preload" as="image" href="./files/g0nEr___sw.png" />
+    <link rel="preload" as="image" href="./files/v9XXf___asche.png" />
+    <link rel="preload" as="image" href="./files/J9-c2___Survivor.png" />
+    <title>Layers - unseen</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+    <script src="./realmar.js" type="module"></script>
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./targets.mind; filterMinCF: 0.0001; filterBeta: 0.01;"
+      vr-mode-ui="enabled: false;"
+      device-orientation-permission-ui="enabled: false;"
+    >
+      <a-assets>
+        <video
+          id="asset_i8wn6"
+          src="./files/BOSzl___victim.mp4"
+          loop=""
+          data-autoplay="true"
+          muted=""
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <img
+          id="asset_R5Z_Y"
+          src="./files/OZAdx___Kopf.png"
+          data-is-animated="true"
+        />
+        <img
+          id="asset_3CE8p"
+          src="./files/g0nEr___sw.png"
+          data-is-animated="true"
+        />
+        <video
+          id="asset_XsLx2"
+          src="./files/5igKW___Stopmotion.mp4"
+          loop=""
+          data-autoplay="true"
+          muted=""
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <img
+          id="asset_NFAZT"
+          src="./files/v9XXf___asche.png"
+          data-is-animated="true"
+        />
+        <img
+          id="asset_-LeCj"
+          src="./files/J9-c2___Survivor.png"
+          data-is-animated="true"
+        />
+      </a-assets>
+      <a-camera
+        position="0 0 0"
+        look-controls="enabled: false;"
+        cursor="fuse: false; rayOrigin: mouse;"
+        raycaster="far: 10000; objects: .clickable;"
+        id="camera"
+      ></a-camera>
+      <a-entity
+        mindar-image-target="targetIndex: 0;"
+        data-item-name="Marker 1"
+        id="item_2HmNB"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.9 0.9 0.9">
+          <a-plane
+            id="entity_gIkfT"
+            data-entity-id="gIkfT"
+            src="#asset_i8wn6"
+            width="1.4137168142"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 1;"
+        data-item-name="Marker 2"
+        id="item_ZwKl5"
+      >
+        <a-entity position="1 -0.75 0" quaternion="0 0 0 1" scale="0.6 0.6 0.6">
+          <a-plane
+            id="entity_sqjnW"
+            data-entity-id="sqjnW"
+            src="#asset_R5Z_Y"
+            width="1"
+            height="1.1059322034"
+            color="#ffffff"
+            alpha-test="0.5"
+            animated-image="src: #asset_R5Z_Y;"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 2;"
+        data-item-name="Marker 3"
+        id="item_cwv2n"
+      >
+        <a-entity
+          position="-0.2 -0.2 0.306"
+          quaternion="0 0 0 1"
+          scale="0.9 0.9 0.9"
+        >
+          <a-plane
+            id="entity_1WwZS"
+            data-entity-id="1WwZS"
+            src="#asset_3CE8p"
+            width="1"
+            height="1.4085365854"
+            color="#ffffff"
+            alpha-test="0.5"
+            animated-image="src: #asset_3CE8p;"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 3;"
+        data-item-name="Marker 4"
+        id="item_8qdUT"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.9 0.9 0.9">
+          <a-plane
+            id="entity_b8sk-"
+            data-entity-id="b8sk-"
+            src="#asset_XsLx2"
+            width="1.3333333333"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 4;"
+        data-item-name="Marker 5"
+        id="item_gsNxO"
+      >
+        <a-entity
+          position="-0.02 0.017 0"
+          quaternion="0 0 0 1"
+          scale="0.15 0.15 0.15"
+        >
+          <a-plane
+            id="entity_XXjdW"
+            data-entity-id="XXjdW"
+            src="#asset_NFAZT"
+            width="1"
+            height="1.5615384615"
+            color="#ffffff"
+            alpha-test="0.5"
+            animated-image="src: #asset_NFAZT;"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 5;"
+        data-item-name="Marker 6"
+        id="item_37XFW"
+      >
+        <a-entity
+          position="0.25 -0.21 0"
+          quaternion="0 0 0 1"
+          scale="0.23 0.23 0.23"
+        >
+          <a-plane
+            id="entity_sbXkm"
+            data-entity-id="sbXkm"
+            src="#asset_-LeCj"
+            width="1.5087108014"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+            animated-image="src: #asset_-LeCj;"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-node id="defer-scene-load"></a-node>
+    </a-scene>
+    <div class="button-wrapper">
+      <div class="button-container invisible" id="gallery-buttons">
+        <button id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-left"
+          >
+            <path d="m12 19-7-7 7-7"></path>
+            <path d="M19 12H5"></path>
+          </svg>
+        </button>
+        <button id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-right"
+          >
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="button-container invisible" id="video-buttons">
+        <button id="play">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-play"
+          >
+            <polygon points="6 3 20 12 6 21 6 3"></polygon>
+          </svg>
+        </button>
+        <button id="pause">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pause"
+          >
+            <rect x="14" y="4" width="4" height="16" rx="1"></rect>
+            <rect x="6" y="4" width="4" height="16" rx="1"></rect>
+          </svg>
+        </button>
+        <button id="replay">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-rotate-ccw"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="button-container invisible" id="link-buttons">
+        <a
+          id="link-button"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
